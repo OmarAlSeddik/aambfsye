@@ -1,10 +1,15 @@
+import Header from "@/components/Header";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Cairo as FontSans } from "next/font/google";
-import "./globals.css";
 import React from "react";
+import "./globals.css";
 
-const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  weight: ["400", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "AAMBFSYE - Homepage",
@@ -25,6 +30,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Header />
         {children}
       </body>
     </html>
