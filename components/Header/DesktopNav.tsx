@@ -22,22 +22,19 @@ const DesktopNav = () => {
             <NavigationMenuContent>
               <ul className="flex w-[25rem] flex-col p-2">
                 <ListItem
-                  href="/en/an-overview-about-the-academy"
+                  href="/an-overview-about-the-academy"
                   title="An Overview"
                 />
                 <ListItem
-                  href="/en/a-word-from-the-president"
+                  href="/a-word-from-the-president"
                   title="Messages and Speeches"
                 />
                 <ListItem href="/why-academy" title="Why Academy?" />
                 <ListItem
-                  href="/en/educational-philosophy"
+                  href="/educational-philosophy"
                   title="Educational Philosophy"
                 />
-                <ListItem
-                  href="/en/board-of-trustees"
-                  title="Board of Trustees"
-                />
+                <ListItem href="/board-of-trustees" title="Board of Trustees" />
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
@@ -46,13 +43,13 @@ const DesktopNav = () => {
             <NavigationMenuContent>
               <ul className="flex w-[25rem] flex-col p-2">
                 <ListItem
-                  href="/en/admission-and-registration"
+                  href="/admission-and-registration"
                   title="Admission and Registration"
                 />
                 <ListItem href="/" title="PhD Programs" />
                 <ListItem href="/" title="Master Programs" />
                 <ListItem
-                  href="/en/academic-rules-and-regulations"
+                  href="/academic-rules-and-regulations"
                   title="Acedemic Rules and Regulations"
                 />
               </ul>
@@ -63,11 +60,11 @@ const DesktopNav = () => {
             <NavigationMenuContent>
               <ul className="flex w-[25rem] flex-col p-2">
                 <ListItem
-                  href="/en/training-programs-and-professional-diplomas"
+                  href="/training-programs-and-professional-diplomas"
                   title="Training Programs and Professional Diplomas"
                 />
                 <ListItem
-                  href="/en/international-certificates"
+                  href="/international-certificates"
                   title="International Certificates"
                 />
               </ul>
@@ -81,28 +78,28 @@ const DesktopNav = () => {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/en/consultancy" legacyBehavior passHref>
+            <Link href="/consultancy" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Consultancy
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/en/statistics" legacyBehavior passHref>
+            <Link href="/statistics" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Statistics
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/en/blog" legacyBehavior passHref>
+            <Link href="/blog" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Blog
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/en/contact-us" legacyBehavior passHref>
+            <Link href="/contact-us" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contact Us
               </NavigationMenuLink>

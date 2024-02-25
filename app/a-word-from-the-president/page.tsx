@@ -1,0 +1,14 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AAMBFSYE - Messages & Speeches",
+  description: "A Word from the President.",
+};
+
+export default function OverviewPage() {
+  return (
+    <main className="flex h-screen items-center justify-center bg-gray-500 text-6xl font-bold">
+      A Word from the President
+    </main>
+  );
+}

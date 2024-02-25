@@ -16,13 +16,13 @@ const Hero = () => {
       title: "Complete Solution for Your Education Needs",
       image: "/homepage/slide-1.webp",
       buttonText: "ABOUT US",
-      buttonLink: "/en/about-us",
+      buttonLink: "/about-us",
     },
     {
       title: "Your Future is Coming for You, Get Ready!",
       image: "/homepage/slide-2.webp",
       buttonText: "OUR PROGRAMS",
-      buttonLink: "/en/admission-and-registration",
+      buttonLink: "/admission-and-registration",
     },
   ];
 
@@ -40,13 +40,9 @@ const Hero = () => {
                   className="z-0"
                   objectFit="cover"
                 />
-                <div className="z-10 flex size-full flex-col items-center justify-center gap-8 text-base font-bold text-white shadow-[inset_0_9999px_rgba(0,0,0,0.375)] md:text-[3.3125rem]">
+                <div className="z-10 flex size-full flex-col items-center justify-center gap-8 text-base font-bold text-white shadow-[inset_0_9999px_rgba(0,0,0,0.5)] md:text-[3.3125rem]">
                   <h2>{item.title}</h2>
-                  <Button
-                    asChild
-                    variant={"secondary"}
-                    className="rounded-full px-8 py-4"
-                  >
+                  <Button asChild className="px-8 py-4">
                     <Link href={item.buttonLink}>{item.buttonText}</Link>
                   </Button>
                 </div>

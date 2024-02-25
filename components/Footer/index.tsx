@@ -6,7 +6,7 @@ import Pages from "./Pages";
 
 const Footer = () => {
   return (
-    <footer className="mt-8 flex flex-col gap-4 bg-[#161b29] py-8 text-gray-400">
+    <footer className="flex flex-col gap-4 bg-[#161b29] py-8 text-gray-400">
       <div className="container flex flex-col justify-between gap-8 md:flex-row md:gap-4">
         <Contact />
         <AboutUs />
