@@ -3,7 +3,7 @@ import { Separator } from "../ui/separator";
 
 const Ribbon = () => {
   return (
-    <div className="flex justify-between bg-primary p-2 text-[0.9rem] font-semibold text-gray-300 md:px-8">
+    <div className="hidden justify-between bg-primary p-2 text-[0.9rem] font-semibold text-gray-300 md:flex md:px-8">
       <div className="flex gap-4">
         <div className="flex gap-2">
           <span className="text-gray-400">Phone:</span>

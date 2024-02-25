@@ -18,9 +18,7 @@ const DesktopNav = () => {
       <NavigationMenu className="ml-auto hidden lg:flex">
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-secondary">
-              About the Academy
-            </NavigationMenuTrigger>
+            <NavigationMenuTrigger>About the Academy</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="flex w-[25rem] flex-col p-2">
                 <ListItem
@@ -76,11 +74,11 @@ const DesktopNav = () => {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <a href="https://ojs.aambfsye.org/arab-Journal" target="_blank">
+            <Link href="https://ojs.aambfsye.org/arab-Journal" target="_blank">
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Journals
               </NavigationMenuLink>
-            </a>
+            </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/en/consultancy" legacyBehavior passHref>

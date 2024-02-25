@@ -32,9 +32,15 @@ const Hero = () => {
         {carouselItems.map((item, index) => (
           <CarouselItem key={index}>
             <Card>
-              <CardContent className="relative flex h-[46rem] items-center justify-center p-0">
-                <Image src={item.image} alt={item.title} fill className="z-0" />
-                <div className="z-10 flex size-full flex-col items-center justify-center gap-8 text-[3.3125rem] font-bold text-white shadow-[inset_0_9999px_rgba(0,0,0,0.5)]">
+              <CardContent className="relative flex h-[23rem] items-center justify-center p-0 md:h-[46rem]">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  className="z-0"
+                  objectFit="cover"
+                />
+                <div className="z-10 flex size-full flex-col items-center justify-center gap-8 text-base font-bold text-white shadow-[inset_0_9999px_rgba(0,0,0,0.375)] md:text-[3.3125rem]">
                   <h2>{item.title}</h2>
                   <Button
                     asChild
@@ -49,8 +55,8 @@ const Hero = () => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="size-8 animate-bounce-left md:size-12" />
+      <CarouselNext className="size-8 animate-bounce-right md:size-12" />
     </Carousel>
   );
 };
