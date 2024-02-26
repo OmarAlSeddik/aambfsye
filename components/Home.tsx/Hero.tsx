@@ -14,13 +14,13 @@ const Hero = () => {
   const carouselItems = [
     {
       title: "Complete Solution for Your Education Needs",
-      image: "/homepage/slide-1.webp",
+      image: "/home/slide-1.webp",
       buttonText: "ABOUT US",
       buttonLink: "/about-us",
     },
     {
       title: "Your Future is Coming for You, Get Ready!",
-      image: "/homepage/slide-2.webp",
+      image: "/home/slide-2.webp",
       buttonText: "OUR PROGRAMS",
       buttonLink: "/admission-and-registration",
     },

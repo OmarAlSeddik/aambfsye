@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="flex w-[15rem] flex-col gap-4">
       <div className="relative h-[5.15625rem] w-[13.125rem]">
-        <Image src="/homepage/Logo-wight-5665.webp" alt="" fill />
+        <Image src="/home/Logo-wight-5665.webp" alt="" fill />
       </div>
       <p>
         Aden, Al-Mansoura, <br /> Ninety Street, Beside Qutaibi Bank
