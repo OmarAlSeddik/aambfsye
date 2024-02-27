@@ -28,21 +28,27 @@ const Contact = () => {
       <div className="flex gap-2 text-white">
         <a
           href="/"
+          aria-label="Our Facebook Page"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex size-10 items-center justify-center rounded-full p-2 transition hover:bg-[#3b5998]"
         >
           <Facebook />
         </a>
         <a
           href="/"
+          aria-label="Our Twitter Page"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex size-10 items-center justify-center rounded-full p-2 transition hover:bg-[#1DA1F2]"
         >
           <Twitter />
         </a>
         <a
           href="/"
+          aria-label="Our Linkedin Page"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex size-10 items-center justify-center rounded-full p-2 transition hover:bg-[#0077B5]"
         >
           <Linkedin />

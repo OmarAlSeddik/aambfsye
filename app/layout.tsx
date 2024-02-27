@@ -8,7 +8,6 @@ import "./globals.css";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
-  weight: ["400", "600", "700"],
 });
 
 export default function RootLayout({

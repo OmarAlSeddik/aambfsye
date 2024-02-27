@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="container flex flex-col items-center gap-8 rounded p-4 text-center">
+    <section className="mx-auto flex flex-col items-center gap-8 rounded bg-white p-8 text-center">
       <h2 className="text-3xl font-bold text-primary">About the Academy</h2>
       <p>
         The Arab Academy for Management, Banking and Financial Sciences (AAMBFS)
@@ -16,7 +16,7 @@ const About = () => {
         generation that is ready to bring about the change to their communities
         across the Arab world.{" "}
         <Link href="/an-overview-about-the-academy" className="text-secondary">
-          Read More
+          Read more about the Academy.
         </Link>
       </p>
     </section>

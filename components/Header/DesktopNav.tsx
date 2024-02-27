@@ -71,8 +71,15 @@ const DesktopNav = () => {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="https://ojs.aambfsye.org/arab-Journal" target="_blank">
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <Link
+              href="https://ojs.aambfsye.org/arab-Journal"
+              legacyBehavior
+              passHref
+            >
+              <NavigationMenuLink
+                className={navigationMenuTriggerStyle()}
+                target="_blank"
+              >
                 Journals
               </NavigationMenuLink>
             </Link>
