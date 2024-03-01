@@ -56,7 +56,7 @@ const Events = () => {
           {events.map((event, index) => (
             <CarouselItem
               className="flex h-[15rem] items-center sm:basis-1/2 lg:basis-1/3 xl:basis-1/4"
-              key={event.title}
+              key={index}
             >
               <Link href={event.link}>
                 <Card className="rounded shadow transition-all hover:-translate-y-1 hover:shadow-xl">
@@ -73,8 +73,8 @@ const Events = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="!-left-[1rem] size-8 md:!-left-[5rem] md:size-12" />
-        <CarouselNext className="!-right-[1rem] size-8 md:!-right-[5rem] md:size-12" />
+        <CarouselPrevious className="!-left-[1rem] size-10 md:!-left-[5rem]" />
+        <CarouselNext className="!-right-[1rem] size-10 md:!-right-[5rem]" />
       </Carousel>
     </section>
   );

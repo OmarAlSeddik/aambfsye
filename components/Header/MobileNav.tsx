@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import Link from "next/link";
+import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 
 const MobileNav = () => {
@@ -26,9 +27,9 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger asChild className="ml-auto">
-        <div className="rounded bg-primary p-2 text-3xl text-white md:hidden">
+        <Button className="rounded bg-primary p-2 text-3xl text-white md:hidden">
           <Menu className="size-6" />
-        </div>
+        </Button>
       </SheetTrigger>
       <SheetContent side={"top"} className="bg-primary px-0 py-4 text-gray-300">
         <nav className="flex flex-col items-center gap-4 text-lg">

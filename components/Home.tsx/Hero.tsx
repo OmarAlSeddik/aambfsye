@@ -51,8 +51,8 @@ const Hero = () => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="size-8 animate-bounce-left md:size-12" />
-      <CarouselNext className="size-8 animate-bounce-right md:size-12" />
+      <CarouselPrevious className="size-10" />
+      <CarouselNext className="size-10" />
     </Carousel>
   );
 };
