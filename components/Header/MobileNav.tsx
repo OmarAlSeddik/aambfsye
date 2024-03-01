@@ -15,8 +15,8 @@ const MobileNav = () => {
   const links = [
     { title: "About the Academy", url: "/" },
     { title: "Academics", url: "/" },
-    { title: "Training", url: "/training" },
     { title: "Journals", url: "https://ojs.aambfsye.org/arab-Journal" },
+    { title: "Training", url: "/" },
     { title: "Consultancy", url: "/consultancy" },
     { title: "Statistics", url: "/statistics" },
     { title: "Blog", url: "/blog" },

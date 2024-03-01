@@ -1,7 +1,7 @@
 const Admission = () => {
   return (
     <section className="container flex h-[32rem] items-center overflow-hidden rounded bg-[url('../public/home/homep1.webp')] bg-cover bg-center p-0">
-      <div className="flex w-1/2 flex-col gap-4 rounded-r bg-white p-8">
+      <div className="flex w-full flex-col gap-4 rounded-r bg-white p-8 md:w-1/2">
         <h2 className="text-xl font-bold text-primary">Apply for Admission</h2>
         <h3 className="text-secondary">
           Registration is open for the first semester 2023-2024
