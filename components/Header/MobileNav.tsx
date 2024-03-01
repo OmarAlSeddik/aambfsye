@@ -27,7 +27,10 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger asChild className="ml-auto">
-        <Button className="rounded bg-primary p-2 text-3xl text-white md:hidden">
+        <Button
+          className="rounded bg-primary p-2 text-3xl text-white md:hidden"
+          aria-label="Menu"
+        >
           <Menu className="size-6" />
         </Button>
       </SheetTrigger>

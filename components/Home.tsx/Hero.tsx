@@ -39,6 +39,7 @@ const Hero = () => {
                   fill
                   className="z-0"
                   objectFit="cover"
+                  priority
                 />
                 <div className="z-10 flex size-full flex-col items-center justify-center gap-8 text-base font-bold text-white shadow-[inset_0_9999px_rgba(0,0,0,0.5)] md:text-[3.3125rem]">
                   <h2>{item.title}</h2>

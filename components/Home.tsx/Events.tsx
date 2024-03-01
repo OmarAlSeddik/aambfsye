@@ -73,8 +73,8 @@ const Events = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="!-left-[1rem] size-10 md:!-left-[5rem]" />
-        <CarouselNext className="!-right-[1rem] size-10 md:!-right-[5rem]" />
+        <CarouselPrevious className="!-left-[1.5rem] size-10 md:!-left-[5rem]" />
+        <CarouselNext className="!-right-[1.5rem] size-10 md:!-right-[5rem]" />
       </Carousel>
     </section>
   );
