@@ -17,6 +17,28 @@ export const metadata: Metadata = {
 export default function OverviewPage() {
   const data = [
     { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
+    { provider: "Ministry of Oil and Mineral Resources", students: 200 },
   ];
 
   return (
@@ -26,7 +48,7 @@ export default function OverviewPage() {
           <h1 className="text-[2rem] font-bold">Statistics</h1>
         </div>
       </section>
-      <section className="container flex flex-col gap-4 py-8">
+      <section className="container flex flex-col items-center gap-4 py-8">
         <p>
           Since its branch inauguration in Yemen in 2006, the Academy has
           contributed to empowering workers in management, financial, and
@@ -34,9 +56,9 @@ export default function OverviewPage() {
           private institutions. The following is a statistic for the number of
           candidates sent by different entities to study at the Academy.
         </p>
-        <Table className="bg-black/25">
+        <Table className="mx-auto max-w-[30rem] overflow-hidden rounded">
           <TableCaption>Number of students per scholarship.</TableCaption>
-          <TableHeader className="bg-black/50">
+          <TableHeader>
             <TableRow>
               <TableHead>Scholarship Provider</TableHead>
               <TableHead>Number of Scholarship Students</TableHead>
@@ -46,7 +68,7 @@ export default function OverviewPage() {
             {data.map((item, index) => (
               <TableRow key={index}>
                 <TableCell className="font-medium">{item.provider}</TableCell>
-                <TableCell>{item.students}</TableCell>
+                <TableCell className="text-center">{item.students}</TableCell>
               </TableRow>
             ))}
           </TableBody>
