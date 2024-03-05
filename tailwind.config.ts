@@ -19,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      listStyleType: {
+        circle: "circle",
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },

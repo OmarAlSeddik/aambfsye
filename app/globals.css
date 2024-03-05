@@ -76,4 +76,7 @@
   p {
     @apply max-w-prose;
   }
+  li {
+    @apply max-w-prose;
+  }
 }
